@@ -1,24 +1,9 @@
-<h1>Star Clusters from Thesis Research</h1>
+<h1>Thesis for Astronomy degree</h1>
 
-<p>The <code>.tar.xz</code> file contains the data of the star clusters I identified and analyzed during my thesis research. This dataset provides comprehensive details on the physical and astrophysical properties of these clusters, along with the methodologies used for detection and classification.</p>
+<p>This repository complements my thesis titled <em>"Identification of Star Clusters in Gaia DR3 to Correlate Them with the Spiral Arms of the Milky Way"</em>. The study focuses on creating a catalog of 534 star clusters using data from Gaia's third Data Release (Gaia DR3). Clustering algorithms such as DBSCAN and pyUPMASK were applied, and isochrone fitting was performed on color-magnitude diagrams to determine key astrophysical parameters, including age, metallicity, distance, and extinction.</p>
+<p>The research also explores the correlation between young clusters and the spiral arms of the galaxy, analyzing how their location and chemical composition relate to the galactic structure. This catalog was compared with other prominent works, showing high consistency with catalogs such as those by Cantat-Gaudin et al. (2020) and Hunt & Reffert (2023).</p>
+<p>For more details about the methodology or findings, refer to the PDF file in this repository, which provides an in-depth explanation of the process and the significance of the results.</p>
 
-<h2>SLR_catalogue.csv</h2>
-
-<p>This file contains the positions and astrophysical parameters of the star clusters, along with the associated errors. The parameters include:</p>
-
-<ul>
-  <li><strong>Equatorial coordinates:</strong> Right Ascension and Declination of the cluster</li>
-  <li><strong>Parallax:</strong> The distance measurement in arcseconds</li>
-  <li><strong>Proper motion:</strong> The apparent motion of the cluster in the sky, measured in milliarcseconds per year</li>
-  <li><strong>Cluster radius:</strong> Radius containing 50% of the data and 50% of the cluster's luminosity</li>
-  <li><strong>Cluster mass:</strong> Estimated mass of the cluster</li>
-  <li><strong>Extinction:</strong> The amount of light absorption by interstellar dust</li>
-  <li><strong>Age:</strong> Estimated age of the cluster</li>
-  <li><strong>Metallicity:</strong> The abundance of elements heavier than helium</li>
-  <li><strong>Distance:</strong> Distance from the Sun to the cluster</li>
-  <li><strong>Galactocentric coordinates:</strong> Coordinates relative to the center of the Milky Way</li>
-</ul>
-
-<h2>SLR_members.csv</h2>
-
-<p>This file contains the individual members of each star cluster, including their data from the GAIA mission.</p>
+<p>- The <em>Clusters</em> folder contains the final catalog, cluster members, and comparisons with the Hunt & Refert catalog.</p>  
+<p>- The <em>Images</em> folder includes various images generated during the analysis of the catalog.</p>  
+<p>- The PDF file is the thesis, written in Spanish.</p>
