@@ -22,3 +22,8 @@
 <h2>SLR_members.csv</h2>
 
 <p>This file contains the individual members of each star cluster, including their data from the GAIA mission.</p>
+
+
+<h2>Comparition_with_Hunt.csv</h2>
+
+<p>This file contains a comparison between the clusters identified in this work and those listed in Hunt & Refert.</p>
